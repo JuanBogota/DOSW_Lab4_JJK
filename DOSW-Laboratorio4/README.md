@@ -24,9 +24,7 @@ En GitHub creamos un pull request desde la pagina del repositorio, en la pestañ
 
 La idea es que un integrante del equipo, diferente al que hizo el pull request, revise los cambios y si todo está bien, le da al botón "Approve" en la pagina de GitHub.
 
-###### g. Bibliografía en norma APA de donde consultaron las preguntas
-
-###### anteriores
+###### g. Bibliografía en norma APA de donde consultaron las preguntas anteriores:
 
 * Introduction to archetypes – maven. (s/f). Apache.org. Recuperado el 14 de febrero de 2026, de https://maven.apache.org/guides/introduction/introduction-to-archetypes.html
 * (S/f). Baeldung.com. Recuperado el 14 de febrero de 2026, de https://www.baeldung.com/maven-archetype
