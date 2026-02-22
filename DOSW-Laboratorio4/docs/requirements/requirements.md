@@ -67,6 +67,56 @@ El sistema de Bankify debe tener:
 | **Diagrama de caso de uso** | ![diagramaCasoDeUso3](/DOSW-Laboratorio4/docs/uml/diagramaCasoDeUso3.png)                                                                                                                                                                                                                                                                                     |                                                                                                                                                      |
 | **Poscondiciones** | *Se espera como resultado que el usuario puedo realizar el deposito de manera exitosa y se vea reflejado en la cuenta*                                                                                                                                                                                                                                        |
 
+---
+
+# ✨ 4. Mockups del Requerimiento RF-03 – Realizar Depósito
+
+## 4.1 Diseño de Interfaces – RF-03
+
+Con el objetivo de validar visualmente el requerimiento funcional **RF-03: Realizar Depósito**, se diseñaron los mockups de las pantallas involucradas en el flujo principal del proceso.
+
+El diseño mantiene la identidad visual de Bankify, utilizando una paleta de colores institucional (azul corporativo, blanco y verde para acciones confirmatorias) y una estructura clara enfocada en la experiencia del usuario.
+
+### 🔄 Flujo de navegación
+
+El flujo diseñado contempla las siguientes pantallas:
+
+1. Dashboard – Acceso a la opción “Realizar Depósito”.
+2. Formulario de Depósito – Ingreso de número de cuenta y monto.
+3. Confirmación de Depósito – Validación y resumen de la operación.
+4. Comprobante de Depósito – Confirmación exitosa y detalle de la transacción.
+
+---
+
+## 4.2 Mockups
+
+### 🖥 Pantalla 1 – Dashboard
+![Mockup Dashboard](/DOSW-Laboratorio4/docs/images/mockup-deposito-1.png)
+
+### 🖥 Pantalla 2 – Formulario de Depósito
+![Mockup Formulario](/DOSW-Laboratorio4/docs/images/mockup-deposito-2.png)
+
+### 🖥 Pantalla 3 – Confirmación
+![Mockup Confirmación](/DOSW-Laboratorio4/docs/images/mockup-deposito-3.jpg)
+
+### 🖥 Pantalla 4 – Comprobante
+![Mockup Comprobante](/DOSW-Laboratorio4/docs/images/mockup-deposito-4.png)
+
+---
+**Enlace al Mockup (Figma):** https://www.figma.com/make/58iEbiVi9Rv7Rc0o3S80UL/Create-Frame?fullscreen=1&t=WsUsrlLAUcaautLj-1
+---
+## 4.3 Justificación del Diseño
+
+El diseño propuesto:
+
+- Garantiza claridad en la información ingresada.
+- Reduce errores mediante validaciones visibles.
+- Presenta un flujo intuitivo y secuencial.
+- Refuerza la confianza del usuario al mostrar un comprobante final.
+
+---
+
+
 ## 3. Preguntas
 ### a. ¿Identifica algún requerimiento que deba detallarse más? ¿cuál(es)? <br>
 
