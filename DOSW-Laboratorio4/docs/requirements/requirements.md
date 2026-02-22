@@ -43,29 +43,29 @@ El sistema de Bankify debe tener:
 
 ### 2.2 Requerimiento Funcional 2
 
-| Campo | Descripción |
-|------|-------------|
-| **ID** | RF-02 |
-| **Nombre del requerimiento** | consultar saldo |
-| **Descripción** | *El sistema debe permitir que el cliente pueda consultar su saldo* |
-| **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe asegurarse de que el ususario pueda autenticarse como cliente, también que la información del cliente este actualizada y que la cuenta del cliente esté activa* |
-| **Actor** | *Cliente* |
+| Campo | Descripción                                                                                                                                                                                                                                                                            |
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **ID** | RF-02                                                                                                                                                                                                                                                                                  |
+| **Nombre del requerimiento** | consultar saldo                                                                                                                                                                                                                                                                        |
+| **Descripción** | *El sistema debe permitir que el cliente pueda consultar su saldo*                                                                                                                                                                                                                     |
+| **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe asegurarse de que el ususario pueda autenticarse como cliente, también que la información del cliente este actualizada y que la cuenta del cliente esté activa*                                                       |
+| **Actor** | *Cliente*                                                                                                                                                                                                                                                                              |
 | **Flujo principal** | 1. El actor selecciona la opción "consultar saldo" …<br>2. El sistema válida que la cuenta pertenezca al cliente y que esté activa <br>3. El sistema solicita ak servicio de base de datos la información requerida <br>4. El sistema carga una pantalla con la información solicitada |
-| **Diagrama de caso de uso** | ![diageamaCasoDeUso2](/docs/uml/diagramaCasoDeUso2.png) |
-| **Poscondiciones** | *Se esperá como resultado que el cliente conozca su saldo actualizado * |
+| **Diagrama de caso de uso** | ![diagramaCasoDeUso2](/DOSW-Laboratorio4/docs/uml/diagramaCasoDeUso2.png)                                                                                                                                                                                                              |
+| **Poscondiciones** | *Se esperá como resultado que el cliente conozca su saldo actualizado *                                                                                                                                                                                                                |
 
 ### 2.3 Requerimiento Funcional 3
 
-| Campo | Descripción |
-|------|-------------|
-| **ID** | RF-03 |
-| **Nombre del requerimiento** | |
-| **Descripción** | *El sistema debe …* |
-| **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente …* |
-| **Actor** | *(El actor debe estar definido en el diagrama de contexto)* |
-| **Flujo principal** | 1. El actor …<br>2. El sistema …<br>3. El sistema … |
-| **Diagrama de caso de uso** | *imagen y link*|
-| **Poscondiciones** | *Se espera como resultado …* |
+| Campo | Descripción                                                                                                                                                                                                                                                                                                                                                   |
+|------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **ID** | RF-03                                                                                                                                                                                                                                                                                                                                                         |
+| **Nombre del requerimiento** | Realizar Deposito                                                                                                                                                                                                                                                                                                                                             |
+| **Descripción** | *El sistema debe permitir realizar depósitos a cuentas bancarias activas.*                                                                                                                                                                                                                                                                                    |
+| **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe asegurarase de que el usuario este autenticado y que la cuenta de destino del deposito este activa *                                                                                                                                                                                         |
+| **Actor** | *cliente*                                                                                                                                                                                                                                                                                                                                                     |
+| **Flujo principal** | 1. El actor selecciona la opción realizar depósito.<br>2. El sistema muestra el formulario de depósito.<br>3. El actor ingresa número de cuenta y monto.<br>4. El sistema valida que la cuenta esté activa y el monto sea válido.<br>5. El sistema registra la transacción y actualiza el saldo.<br>6. El sistema muestra el comprobante de la operación.<br> |
+| **Diagrama de caso de uso** | ![diagramaCasoDeUso3](/DOSW-Laboratorio4/docs/uml/diagramaCasoDeUso3.png)                                                                                                                                                                                                                                                                                     |                                                                                                                                                      |
+| **Poscondiciones** | *Se espera como resultado que el usuario puedo realizar el deposito de manera exitosa y se vea reflejado en la cuenta*                                                                                                                                                                                                                                        |
 
 ## 3. Preguntas
 ### a. ¿Identifica algún requerimiento que deba detallarse más? ¿cuál(es)? <br>
