@@ -46,13 +46,13 @@ El sistema de Bankify debe tener:
 | Campo | Descripción |
 |------|-------------|
 | **ID** | RF-02 |
-| **Nombre del requerimiento** | |
-| **Descripción** | *El sistema debe …* |
-| **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente …* |
-| **Actor** | *(El actor debe estar definido en el diagrama de contexto)* |
-| **Flujo principal** | 1. El actor …<br>2. El sistema …<br>3. El sistema … |
-| **Diagrama de caso de uso** | *imagen y link*|
-| **Poscondiciones** | *Se espera como resultado …* |
+| **Nombre del requerimiento** | consultar saldo |
+| **Descripción** | *El sistema debe permitir que el cliente pueda consultar su saldo* |
+| **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe asegurarse de que el ususario pueda autenticarse como cliente, también que la información del cliente este actualizada y que la cuenta del cliente esté activa* |
+| **Actor** | *Cliente* |
+| **Flujo principal** | 1. El actor selecciona la opción "consultar saldo" …<br>2. El sistema válida que la cuenta pertenezca al cliente y que esté activa <br>3. El sistema solicita ak servicio de base de datos la información requerida <br>4. El sistema carga una pantalla con la información solicitada |
+| **Diagrama de caso de uso** | ![diageamaCasoDeUso2](/docs/uml/diagramaCasoDeUso2.png) |
+| **Poscondiciones** | *Se esperá como resultado que el cliente conozca su saldo actualizado * |
 
 ### 2.3 Requerimiento Funcional 3
 
