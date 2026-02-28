@@ -17,7 +17,7 @@
 
 ### 3.1 Diagrama
 
-![Diagrama de contexto](/docs/uml/diagramaContexto.png)
+![Diagrama de contexto](DOSW-Laboratorio4/docs/uml/diagramaContexto.png)
 
 ### 3.2 Actores
 
